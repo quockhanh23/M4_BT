@@ -16,5 +16,16 @@
   <button>Click</button>
 </form>
 <h2>kết quả ${dola}$</h2>
+
+<form action="/dic" method="post">
+  <input  name="name">
+  <button>Click</button>
+</form>
+<h2>Dictionary</h2>
+<form action="/translate">
+  <input type="text" name="viet" placeholder="Enter your word: "/>
+  <input type = "submit" id = "submit" value = "Search"/> <br>
+
+</form>
 </body>
 </html>
